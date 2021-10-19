@@ -1,0 +1,96 @@
+<html>
+  <head>
+  <title>Slider Html</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  </head>
+
+<style type="text/css">
+button.slick-arrow{
+  display: none !important;
+}
+#slick-slide-control00{
+  display: none !important;
+}
+#slick-slide-control01{
+  display: none ;
+}
+#slick-slide-control02{
+  display: none;
+}
+.slick-dots{
+  display: none!important;
+  /*display: flex !important;*/
+  /*margin-left: 50%;*/
+}
+</style>
+  <body>
+
+<ul class="slider">
+  <li>
+    <div class="container" style="display:flex;">
+      <img src="./images/sl1.jpg">
+        <div class="container"> 
+        <h4>Our letest projects</h4>
+        <h2>Catterfly Disrupted The Travel Industry To<br>Offer A Singular Experience</h2>
+        <p>We want to empower the travelers with personalized solutions and a <br>good holiday experience,without intermediaries. This one-line idea<br> initiated our conversation with Catterfly, a distinctive player with aM<br> holistic vision, in the travel segment.</p>
+        <a href="#">View Project</a>
+        </div>
+    </div>
+  </li>
+<!-- slider 2 -->
+  <li>
+      <div class="container" style="display:flex;">
+      <img src="./images/sl2.jpg">
+        <div class="container"> 
+        <h4>Our letest projects</h4>
+        <h2>How A Leading Jewellery Business Enhanced <br>Their Customer Experience?</h2>
+        <p>The client wanted to stand out in the crowded jewellery market with its <br>top-notch jewellery products. Despite having a system in place, the <br>client was unable to achieve the engagement they were aiming for. So,<br> how did our team achieve this?.</p>
+        <a href="#">View Project</a>
+        </div>
+    </div>
+  </li>
+  <!-- slider 3 -->
+  <li>
+        <div class="container" style="display:flex;">
+      <img src="./images/sl3.jpg">
+        <div class="container"> 
+        <h4>Our letest projects</h4>
+        <h2>Hassle-Free Loans At Your Doorstep With <br>Loan Studio</h2>
+        <p>LoanStudio’s single line vision was to make loans accessible and<br> applying for loans hassle-free for their target market. They came to<br> Coruscate with an idea about how they envisioned digital lending.</p>
+        <a href="#">View Project</a>
+        </div>
+    </div>
+  </li>
+  <!-- slider 4 -->
+  <li>
+      <div class="container" style="display:flex;">
+      <img src="./images/sl1.jpg">
+        <div class="container"> 
+        <h4>Our letest projects</h4>
+        <h2>How We Defined A CRM Solution For The <br> Jewellery Industry To Boost Their <br>Customer Acquisition Efforts</h2>
+        <p>Two leading companies in the jewellery industry approached Coruscate <br>with two different issues. The first company was unable to keep a track <br>of the communication that occurred between the organization and the <br>client side.</p>
+        <a href="#">View Project</a>
+        </div>
+    </div>
+  </li>
+</ul>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript">
+$('.slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+  
+</script>
+  </body>
+</html>
